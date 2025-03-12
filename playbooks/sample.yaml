@@ -12,6 +12,6 @@
       action: service name=podman state=started 
     - name: Stop Docker Server on the webservers
       action: service name=podman state=stopped 
-    - name: Restart Docker Server on the Host machines 
+    - name: Restart Docker Server on the Host machines
       action: service name=podman state=restarted   
 
